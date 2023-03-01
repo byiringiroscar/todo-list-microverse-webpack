@@ -11,11 +11,16 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
-    "devDependencies": [
-      "**/*.test.ts?(x)",
-      "**/*.spec.ts?(x)",
-      "**/test-utils.ts",
-      "webpack.config.js"
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.ts?(x)",
+          "**/*.spec.ts?(x)",
+          "**/test-utils.ts",
+          "webpack.config.js"
+        ]
+      }
     ],
     "no-shadow": "off",
     "no-param-reassign": "off",
