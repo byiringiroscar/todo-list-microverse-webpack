@@ -1,7 +1,7 @@
 {
-  "name": "capstone_microverse_one",
+  "name": "todo-list-microverse-webpack",
   "version": "1.0.0",
-  "description": "final capstone project for microverse module one",
+  "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/byiringiroscar/capstone_microverse_one.git"
+    "url": "git+https://github.com/byiringiroscar/todo-list-microverse-webpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/byiringiroscar/capstone_microverse_one/issues"
+    "url": "https://github.com/byiringiroscar/todo-list-microverse-webpack/issues"
   },
-  "homepage": "https://github.com/byiringiroscar/capstone_microverse_one#readme",
+  "homepage": "https://github.com/byiringiroscar/todo-list-microverse-webpack#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
