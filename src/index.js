@@ -1,4 +1,4 @@
-// import './index.css';
+import './style.css';
 
 const listContainer = document.querySelector('.list-container');
 
