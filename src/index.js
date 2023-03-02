@@ -1,5 +1,8 @@
 import './style.css';
 import DoTask from './task.js';
+import './delete.png';
+import './action.png';
+import './refresh.png';
 
 const listContainer = document.querySelector('.list-container');
 const inputDo = document.getElementById('todo-input');
