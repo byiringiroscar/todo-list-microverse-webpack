@@ -1,9 +1,5 @@
 import './style.css';
 import DoTask from './task.js';
-import './delete.png';
-// eslint-disable-next-line no-unused-vars
-import action from './action.png';
-import './refresh.png';
 
 const listContainer = document.querySelector('.list-container');
 const inputDo = document.getElementById('todo-input');

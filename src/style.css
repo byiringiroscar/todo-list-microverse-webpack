@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(47, 149, 131, 1) 14%, rgba(204, 204, 212, 1) 49%, rgba(56, 147, 89, 1) 80%, rgba(9, 121, 71, 1) 93%);
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -19,7 +24,7 @@
   width: 350px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  box-shadow: rgba(113, 148, 16, 0.25) 0 13px 27px -5px, rgba(151, 211, 10, 0.3) 0 8px 16px -8px;
 }
 
 .header {
@@ -35,6 +40,7 @@
 .main-title {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .title-span {
@@ -58,6 +64,11 @@
   width: 100%;
   height: 35px;
   padding: 0 15px;
+}
+
+#todo-input:focus {
+  outline: 2px solid #d7d6a5;
+  border: 1px solid #d7d6a5;
 }
 
 .list-container {
@@ -152,6 +163,7 @@
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
 }
 
 .clear:hover {
