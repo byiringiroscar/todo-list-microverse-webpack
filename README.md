@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [TodoList] <a name="about-project"></a>
 
-**[TodoList]** is a project developed in module 2 week 2 where combined with list displayed in webspace from array 
+**[TodoList]** is a project developed in module 2 week 2 where combined with way of adding, edit, delete and updating data
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -80,6 +80,10 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[list of data ]**
+- **[add data ]**
+- **[delete data ]**
+- **[create data ]**
+- **[update data ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,8 +177,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[add data]**
-- [ ] **[Remove data]**
+- [ ] **[Use API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
