@@ -1,12 +1,12 @@
 import './style.css';
 import DoTask from './task.js';
 import './delete.png';
-// eslint-disable-next-line no-unused-vars
-import action from './action.png';
+import './action.png';
 import './refresh.png';
 
 const listContainer = document.querySelector('.list-container');
 const inputDo = document.getElementById('todo-input');
+const refreshBtn = document.querySelector('.refresh');
 
 // class
 
@@ -25,6 +25,21 @@ const updateData = () => {
       </div>
       <div class="main-edit">
           <input type="checkbox" class="checkbox-edit" id="">
+          <input type="text" class="item-input-edit" value="${task.tasks[i].description}" id="${task.tasks[i].index}">
+          <img src="./delete.png" alt="" class="delete-item" id="${task.tasks[i].index}">
+      </div>
+  </div>`;
+    } else {
+      html += `<div class="item">
+      <div class="main-item">
+          <div class="item-detail">
+              <input type="checkbox" class="item-check" id="${task.tasks[i].index}" checked>
+              <h5 class="descr strike-through">${task.tasks[i].description}</h5>
+          </div>
+          <img src="./action.png"  alt="" class="dot" disabled>
+      </div>
+      <div class="main-edit">
+          <input type="checkbox" class="checkbox-edit" id="${task.tasks[i].index}" checked>
           <input type="text" class="item-input-edit" value="${task.tasks[i].description}" id="${task.tasks[i].index}">
           <img src="./delete.png" alt="" class="delete-item" id="${task.tasks[i].index}">
       </div>
@@ -110,6 +125,9 @@ inputDo.addEventListener('keypress', (event) => {
     addData(event.target.value);
     event.target.value = '';
   }
+});
+refreshBtn.addEventListener('click', () => {
+  updateData();
 });
 
 window.onload = () => updateData();
