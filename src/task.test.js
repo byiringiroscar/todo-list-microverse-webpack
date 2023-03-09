@@ -1,5 +1,4 @@
 import DoTask from './task.js';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import 'jest-localstorage-mock';
 
 beforeEach(() => {

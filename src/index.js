@@ -51,6 +51,7 @@ const updateData = () => {
   const allData = document.querySelectorAll('.item-check');
   const descriptionAll = document.querySelectorAll('.descr');
   for (let j = 0; j < allData.length; j += 1) {
+    // eslint-disable-next-line func-names
     allData[j].addEventListener('change', function () {
       if (allData[j].checked) {
         descriptionAll[j].classList.add('strike-through');
