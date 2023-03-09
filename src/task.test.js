@@ -1,5 +1,6 @@
 import DoTask from './task.js';
-import 'jest-localstorage-mock';
+
+require('jest-localstorage-mock');
 
 beforeEach(() => {
   localStorage.clear();
