@@ -1,6 +1,6 @@
 import DoTask from './task.js';
 
-require('jest-localstorage-mock');
+require('jest-localstorage-mock'); // eslint-disable-line import/no-unresolved
 
 beforeEach(() => {
   localStorage.clear();
