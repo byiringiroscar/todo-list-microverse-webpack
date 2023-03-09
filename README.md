@@ -150,7 +150,9 @@ Example command:
 ### Usage
 
 
-To run the project, execute the following command: run index.html in src folder
+To run the project make sure node js installed then , execute the following command: 
+- npm install
+- npm start
 
 <!--
 Example command:
@@ -166,10 +168,16 @@ Example command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Oscar Byiringiro**
 
 - GitHub: [@githuboscar](https://github.com/byiringiroscar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/oscar-byiringiro-9baa8313a/)
+
+👤  **Yidnekachew Kassahun**
+
+- GitHub: [Yidne](https://github.com/Yidnekachew-cmd)
+- Twitter: [Yidne](https://twitter.com/Yidnekassahun)
+- LinkedIn: [Yidne](https://www.linkedin.com/in/yidnekachew-kassahun-2b817a24b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,7 +212,7 @@ If you like this project you can buy me cofee here [link](https://www.linkedin.c
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- **I would like to thank microverse for make this thing happen**
+- **I would like to thank microverse for make this thing happen and my partner for strong advise and explaination**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
