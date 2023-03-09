@@ -15,5 +15,8 @@ describe('Add and remove Task', () => {
     expect(newTask.tasks[0].description).toBe('google is my dream');
   });
 
-  // delete test
+  it('delete data', () => {
+    newTask.removeData([0]);
+    expect(newTask.tasks.length).toBe(0);
+  });
 });
